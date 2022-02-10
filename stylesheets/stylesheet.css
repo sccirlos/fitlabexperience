@@ -81,7 +81,6 @@ footer p {
 a {
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px dotted #666;
   color: inherit;
   text-shadow: none;
 }
@@ -100,15 +99,10 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: px;
   padding: 5px;
   margin: 10px 0 10px 0;
 
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -238,7 +232,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 20px 10px 20px;
   color: #fff;
-  
+
   font-weight: 700;
   border: none;
 }
