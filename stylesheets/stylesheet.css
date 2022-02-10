@@ -33,7 +33,7 @@ h1 {
   font-size: 36px;
   line-height: 1.1;
   font-weight: 700;
-  inline-size: min-content;
+  
   
 }
 
@@ -82,6 +82,7 @@ footer p {
   font-size: 12px;
   vertical-align: baseline;
   display: inline;
+  text-align: center;
 
 }
 
@@ -357,7 +358,7 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
   body {
     font-size: 13px;
   }
@@ -372,7 +373,7 @@ Small Device Styles
 
   .inner {
     min-width: 320px;
-    max-width: 480px;
+    max-width: 500px;
   }
 
   #header_wrap .inner {
