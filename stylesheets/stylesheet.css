@@ -99,11 +99,15 @@ img {
   position: relative;
   margin: 0 auto;
   border: 0px;
+  height: 30px;
+  width: 24px;
 }
 
 a img {
   border: 0px;
   position: relative;
+  height: 20px;
+  width: 16px;
 }
 
 p img {
@@ -220,7 +224,6 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 960px;
   padding: 20px 10px;
   margin: 0 auto;
 }
