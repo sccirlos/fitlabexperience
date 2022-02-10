@@ -109,12 +109,12 @@ img {
   border: 0px;
   height: 180px;
   width: 177px;
-  margin-right: 20px;
-  padding-right: 10px;
+  margin-right: 0px;
+  padding-right: 15px;
   padding-bottom: 3px;
   float: left;
   margin-top: 28px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 a img {
