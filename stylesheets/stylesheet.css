@@ -107,12 +107,13 @@ img {
   position: relative;
   margin: 0 auto;
   border: 0px;
-  height: 170px;
-  width: 167px;
-  margin-right: 5px;
+  height: 180px;
+  width: 177px;
+  margin-right: 20px;
   padding-right: 20px;
   padding-bottom: 3px;
   float: left;
+  margin-top: 28px;
 }
 
 a img {
