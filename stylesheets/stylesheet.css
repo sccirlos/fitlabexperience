@@ -99,15 +99,15 @@ img {
   position: relative;
   margin: 0 auto;
   border: 0px;
-  height: 40px;
-  width: 34px;
+  height: 60px;
+  width: 54px;
 }
 
 a img {
   border: 0px;
   position: relative;
-  height: 40px;
-  width: 34px;
+  height: 60px;
+  width: 54px;
 }
 
 p img {
@@ -254,19 +254,19 @@ header {
 }
 
 #header_wrap .inner {
-  padding: 60px 10px 20px 20px;
+  padding: 60px 10px 30px 20px;
 }
 
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 300;
   background: none;
 }
