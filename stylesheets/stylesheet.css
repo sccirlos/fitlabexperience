@@ -274,8 +274,8 @@ header {
 
 #project_title {
   color: #fff;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 690;
   padding-top: 5px;
   padding-right: 0px;
   word-wrap: break-word;
@@ -284,7 +284,7 @@ header {
 
 #project_tagline {
   color: #fff;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 300;
   background: none;
 }
@@ -322,6 +322,27 @@ header {
 
 #footer_wrap {
   background: #212121;
+}
+
+
+/*video!*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.repsonse1 {
+  width: 100%;
+  height: 100;
+  position: relative;
+  padding: 20px;
+}
+.response2 {
+  width: 100%;
+}
+.video {
+  width: 100%;
+  height: auto;
 }
 
 /*******************************************************************************
