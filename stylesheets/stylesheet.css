@@ -76,6 +76,7 @@ p {
 
 footer p {
   color: #f2f2f2;
+  font-size: 16px;
 }
 
 a {
@@ -96,11 +97,13 @@ strong {
 }
 
 img {
+  padding-left: 15px;
+  padding-right: 20px;
   position: relative;
   margin: 0 auto;
   border: 0px;
-  height: 60px;
-  width: 54px;
+  height: 80px;
+  width: 65px;
 }
 
 a img {
