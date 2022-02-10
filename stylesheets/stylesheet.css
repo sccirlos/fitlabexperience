@@ -85,7 +85,6 @@ a {
   text-shadow: none;
 }
 
-a:hover, a:focus {border-bottom: 1px solid #0090ff;}
 
 
 em {
@@ -99,10 +98,12 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
+  border: 0px;
+}
 
+a img {
+  border: 0px;
+  position: relative;
 }
 
 p img {
@@ -234,7 +235,7 @@ Full-Width Styles
   color: #fff;
 
   font-weight: 700;
-  border: none;
+  border: 0px;
 }
 
 #fitlab_web:hover {
