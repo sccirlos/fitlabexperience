@@ -403,6 +403,9 @@ Small Device Styles
   font-size: 36px;
   }
 
+  p {
+    font-size: 10px;
+  }
   h1 {
     font-size: 28px;
   }
