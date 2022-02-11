@@ -257,6 +257,7 @@ Full-Width Styles
 
 
 
+
 .outer {
   width: 100%;
   padding: 20px 30px 40px 10px;
@@ -346,6 +347,19 @@ header {
 
 #footer_wrap {
   background: #212121;
+}
+
+.footer_outer{
+  padding: 40px;
+
+}
+
+.footer_outer ul {
+  padding: 0;
+  list-style:none;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .footer_outer .copyright {
