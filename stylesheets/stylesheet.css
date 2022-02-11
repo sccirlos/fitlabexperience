@@ -341,15 +341,10 @@ header {
   overflow: hidden;
 }
 
-.embed-youtube iframe,
-.embed-youtube object,
-.embed-youtube embed {
-  border: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+iframe.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*******************************************************************************
