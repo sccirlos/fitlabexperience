@@ -333,9 +333,6 @@ header {
  
 .container {
   position: relative;
-  padding-top: 56.25%; 
-  padding-bottom: 62.5%;
-  padding-bottom: 75%; 
   max-width: 100%;
   height: auto;
   overflow: hidden;
@@ -343,8 +340,8 @@ header {
  
 iframe.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+/*   margin-left: auto;
+  margin-right: auto; */
 }
 
 /*******************************************************************************
