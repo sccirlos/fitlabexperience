@@ -228,6 +228,7 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+/* 
 .video-area {
   padding: 250px;
   position: relative;
@@ -236,7 +237,7 @@ Full-Width Styles
   align-items: center;
   background: #1f2532;
 
-}
+} */
 
 .outer {
   width: 100%;
@@ -330,24 +331,25 @@ header {
 }
 
 
-/*video!*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.repsonse1 {
-  width: 100%;
-  height: 100;
+.container {
   position: relative;
-  padding: 20px;
-}
-.response2 {
-  width: 100%;
-}
-.video {
-  width: 100%;
+  padding-top: 56.25%; /* - 16:9 aspect ratio (most common) */
+  /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+  /* padding-bottom: 75%; - 4:3 aspect ratio */
+  max-width: 100%;
   height: auto;
+  overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*******************************************************************************
