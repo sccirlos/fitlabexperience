@@ -336,7 +336,8 @@ header {
   /* 16:9 */
   padding-top: 25px;
   height: 0;
-
+  left: 20px;
+  right: 20px;
 
 }
  
