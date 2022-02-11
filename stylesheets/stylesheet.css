@@ -73,7 +73,7 @@ h6 {
 
 p {
   font-family: "Lato";
-  font-size: 18px;
+  font-size: 12px;
   margin: 0px 0 15px 0;
 }
 
@@ -225,6 +225,21 @@ form {
   padding: 20px;
 }
 
+a:link {
+  color: pink
+}
+
+a:visited{
+  color: pink;
+}
+a:hover{
+  color:rgb(114, 176, 228);
+}
+
+a:active{
+  color:rgb(114, 176, 228);
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -239,6 +254,8 @@ Full-Width Styles
   background: #1f2532;
 
 } */
+
+
 
 .outer {
   width: 100%;
