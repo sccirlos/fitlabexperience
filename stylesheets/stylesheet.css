@@ -330,6 +330,16 @@ header {
   background: #212121;
 }
 
+.footer_outer .copyright {
+  margin-top: 140px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 0;
+
+}
+
+
 .container {
   position: relative;
   padding-bottom: 56.25%;
