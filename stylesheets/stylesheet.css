@@ -225,20 +225,7 @@ form {
   padding: 20px;
 }
 
-a:link {
-  color: pink
-}
 
-a:visited{
-  color: pink;
-}
-a:hover{
-  color:rgb(114, 176, 228);
-}
-
-a:active{
-  color:rgb(114, 176, 228);
-}
 
 /*******************************************************************************
 Full-Width Styles
@@ -413,6 +400,20 @@ header {
 
 }
 
+.footer_outer .copyright a:link {
+  color: pink
+}
+
+.footer_outer .copyright a:visited{
+  color: pink;
+}
+.footer_outer .copyright a:hover{
+  color:rgb(114, 176, 228);
+}
+
+.footer_outer .copyright a:active{
+  color:rgb(114, 176, 228);
+}
 
 
 .container {
