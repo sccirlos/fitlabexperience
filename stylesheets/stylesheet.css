@@ -337,7 +337,7 @@ header {
 }
 
 .footer_outer{
-  padding: 40px;
+  padding: 40px 40px 10px 40px;
 
 }
 
@@ -354,7 +354,7 @@ header {
   flex-wrap: wrap;
   margin: 1rem;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 3em;
 }
 
 .footer_outer .social ul li {
