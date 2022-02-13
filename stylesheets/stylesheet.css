@@ -367,7 +367,7 @@ header {
 
 /* transition for social icon hover animation */
 .fa-facebook,
-.fa-codepen,
+.fa-tiktok,
 .fa-youtube,
 .fa-instagram,
 .fa-github,
@@ -379,6 +379,17 @@ header {
 /* social media icons hover color */
 .fa-facebook:hover,
 .fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+.fa-tiktok:hover,
+.fa-tiktok:focus {
   color: #1877f2;
   transform: scale(1.1);
 }
