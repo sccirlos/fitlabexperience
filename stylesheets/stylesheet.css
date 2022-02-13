@@ -5,12 +5,12 @@
 Theme Styles
 *******************************************************************************/
 
-/* *, *:before, *:after {
+ *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
- */
+ 
 body {
   color:#373737;
   background: #212121;
