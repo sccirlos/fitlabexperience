@@ -77,14 +77,14 @@ p {
   margin: 0px 0 15px 0;
 }
 
-footer p {
+/* footer p {
   color: #f2f2f2;
   font-size: 12px;
   vertical-align: baseline;
   text-align: center;
   
 
-}
+} */
 
 a {
   text-decoration: none;
@@ -426,6 +426,15 @@ header {
   color: #fff;
   margin-bottom: 0;
 
+}
+
+.footer_outer .copyright p {
+  
+    color: #f2f2f2;
+    font-size: 12px;
+    vertical-align: baseline;
+    text-align: center;
+    
 }
 
 .footer_outer .copyright a:link {
