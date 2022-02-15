@@ -347,7 +347,7 @@ header {
 
 
 
-.footer_outer .social a{
+.footer_outer .social a,p{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2rem;
