@@ -348,15 +348,17 @@ header {
     margin-top: 5%;
     margin-bottom: 2rem;
     color: #eee;
+    
+
 }
 .footer_outer .social ul {
   display: flex;
   align-items: right;
   justify-content: flex-end;
   flex-wrap: wrap;
-  margin: 0.75rem;
+  margin: 1rem;
   list-style-type: none;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-top: 200px;
 }
 
