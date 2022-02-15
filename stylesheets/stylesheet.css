@@ -341,6 +341,10 @@ header {
 
 }
 
+.clear{
+  clear:both;
+}
+
 
 
 .footer_outer .social a{
@@ -353,7 +357,7 @@ header {
 }
 .footer_outer .social ul {
   display: flex;
-  align-items: right;
+  float:right;
   justify-content: flex-end;
   flex-wrap: wrap;
   margin: 1rem;
