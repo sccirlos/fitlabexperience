@@ -358,6 +358,7 @@ header {
 .footer_outer .social ul {
   display: flex;
   float:right;
+  align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
   margin: 1rem;
