@@ -382,7 +382,6 @@ footer {
 }
 .footer_outer .social ul {
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
   margin: 1.2rem;
   list-style-type: none;
