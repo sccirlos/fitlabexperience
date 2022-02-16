@@ -360,12 +360,13 @@ footer {
 
 
 .footer_outer .social p{
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 2rem;
-    color: #eee;
-    font-size: 2rem;
-    height: 30px;
+  font-family: "roboto condensed";
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  color: #eee;
+  font-size: 2rem;
+  height: 30px;
     
 
 }
@@ -385,7 +386,7 @@ footer {
   list-style-type: none;
   font-size: 1.5em;
   color: #eee;
-  margin-right: 100px;
+  margin-right: 110px;
 }
 
 .footer_outer .social ul li {
