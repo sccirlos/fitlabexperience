@@ -355,6 +355,7 @@ aside{
 
 footer {
   clear:both;
+  margin-top: 50px;
 }
 
 
@@ -363,6 +364,7 @@ footer {
     margin-top: 5%;
     margin-bottom: 2rem;
     color: #eee;
+    font-size: 2rem;
     
 
 }
@@ -381,8 +383,8 @@ footer {
   margin: 1rem;
   list-style-type: none;
   font-size: 1.5em;
-  margin-top: 200px;
   color: #eee;
+  margin-right: 100px;
 }
 
 .footer_outer .social ul li {
