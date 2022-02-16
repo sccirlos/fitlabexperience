@@ -338,7 +338,7 @@ header {
 
 .footer_outer{
   padding: 40px 40px 10px 40px;
-  clear:both;
+ 
 
 }
 
@@ -353,10 +353,9 @@ aside{
   width: 53%
 }
 
-.clear{
+footer {
   clear:both;
 }
-
 
 
 .footer_outer .social p{
