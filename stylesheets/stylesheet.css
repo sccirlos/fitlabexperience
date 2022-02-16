@@ -366,8 +366,8 @@ footer {
   margin-bottom: 1rem;
   color: #eee;
   font-size: 1.6rem;
-  height: 25px;
-  margin-right:200px
+  height: 15px;
+  margin-right:90px
 
     
 
@@ -388,8 +388,8 @@ footer {
   list-style-type: none;
   font-size: 0;
   color: #eee;
-  margin-right: 150px;
-  width: 275px;
+  margin-right: 200px;
+  width: 205px;
 }
 
 .footer_outer .social ul li {
