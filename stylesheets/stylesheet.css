@@ -344,8 +344,8 @@ header {
 
 section {
   float: right;
-  margin: 0 10%;
-  width: 40%
+ /*  margin: 5% 10%;
+  width: 40% */
 }
 aside{
   float:left;
@@ -363,9 +363,9 @@ footer {
   font-family: "roboto condensed";
   text-align: center;
   margin-top: 5%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #eee;
-  font-size: 2rem;
+  font-size: 1.6rem;
   height: 25px;
   margin-right:100px
 
