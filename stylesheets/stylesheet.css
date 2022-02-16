@@ -344,7 +344,7 @@ header {
 
 section {
   float: right;
-  margin: 0 1.5%;
+  margin: 0 10%;
   width: 40%
 }
 aside{
@@ -365,6 +365,7 @@ footer {
     margin-bottom: 2rem;
     color: #eee;
     font-size: 2rem;
+    height: 30px;
     
 
 }
