@@ -261,9 +261,6 @@ Full-Width Styles
   border: 0px;
 }
 
-/* #fitlab_web:hover {
-  background-color: #1883ed;
-} */
 
 header {
   color: #f2f2f2;
@@ -402,39 +399,6 @@ div.social {
   color: #fff;
 }
 
-/* .footer_outer .social p{
-  font-family: "roboto condensed";
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 1rem;
-  color: #eee;
-  font-size: 1.4rem;
-  height: 10px;
-  margin-right:90px
-
-}
-.footer_outer .social a{
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 2rem;
-  color: #eee;
-} */
-/* 
-}
-.footer_outer .social ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1.2rem;
-  list-style-type: none;
-  font-size: 0;
-  color: #eee;
-  margin-right: 200px;
-  width: 205px;
-} */
-
-/* .footer_outer .social ul li {
-  padding: 1rem;
-} */
 
 .fab {
   font-size: 2rem;
@@ -469,48 +433,7 @@ div.social {
   color: #1877f2;
   transform: scale(1.1);
 }
-/* 
- .footer_outer ul {
-  padding: 0;
-  list-style:none;
-  text-align: center;
-  line-height: 2;
-  margin-bottom: 0;
-}  */
 
-/* .footer_outer .copyright {
-  margin-top: 150px;
-  text-align: center;
-  font-size: 12px;
-  color: #fff;
-  margin-bottom: 0;
-
-}
-
-.footer_outer .copyright p {
-  
-    color: #f2f2f2;
-    font-size: 12px;
-    vertical-align: baseline;
-    text-align: center;
-    
-}
-
-.footer_outer .copyright a:link {
-  color: pink
-}
-
-.footer_outer .copyright a:visited{
-  color: pink;
-}
-.footer_outer .copyright a:hover{
-  color:rgb(114, 176, 228);
-}
-
-.footer_outer .copyright a:active{
-  color:rgb(114, 176, 228);
-}
- */
 
 .container {
   position: relative;
@@ -535,19 +458,7 @@ div.social {
   overflow: hidden;
   z-index: 1;
 }
-/* 
-.promo_vid {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  z-index: 1;
- 
-} */
+
  
 .container iframe {
   position: absolute;
