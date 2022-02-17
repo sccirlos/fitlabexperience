@@ -344,8 +344,8 @@ header {
 
 section {
   float: right;
- /*  margin: 5% 10%;
-  width: 40% */
+  margin: 0% 1.5%;
+  width: 40% 
 }
 aside{
   float:left;
