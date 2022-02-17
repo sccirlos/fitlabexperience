@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   margin: 0px;
   font-weight: 700;
@@ -54,9 +54,11 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 21px;
+  width: 100%;
+  text-align: left;
+  color:#eee;
+  font-size: 1.4em;
+  white-space: nowrap;
 }
 
 h5 {
@@ -176,7 +178,7 @@ blockquote {
   font-style: italic;
 }
 
-ul, ol, dl {
+ol, dl {
   margin: 0 0 15px 0;
   padding-left: 20px;
 }
@@ -244,17 +246,6 @@ Full-Width Styles
 
 
 
-
-.outer {
-  width: 100%;
-  padding: 20px 30px 40px 10px;
-}
-
-.inner {
-  position: relative;
-  padding: 20px 20px;
-  margin: 0 auto;
-}
 
 #fitlab_web {
   display: block;
@@ -337,39 +328,88 @@ header {
 }
 
 .footer_outer{
-  padding: 40px 40px 10px 40px;
+  padding: 30px 20px 10px 20px;
  
 
 }
 
-section {
-  float: right;
-  margin: 0% 1.5%;
-  width: 40% 
-}
-aside{
-  float:left;
-  margin: 0 1.5%;
-  width: 53%
-}
 
 footer {
-  clear:both;
   margin-top: 300px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "roboto condensed";
 }
 
+.row {
+  padding: 2em 1em;
+}
 
-.footer_outer .social p{
+.row.primary{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: stretch;
+}
+
+.column{
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.vip p{
+
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  
+}
+
+.copyright p{
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* .footer_outer .social p{
   font-family: "roboto condensed";
   text-align: center;
   margin-top: 10%;
   margin-bottom: 1rem;
   color: #eee;
-  font-size: 1.6rem;
-  height: 15px;
+  font-size: 1.4rem;
+  height: 10px;
   margin-right:90px
-
-    
 
 }
 .footer_outer .social a{
@@ -377,8 +417,8 @@ footer {
   margin-top: 5%;
   margin-bottom: 2rem;
   color: #eee;
-  
-
+} */
+/* 
 }
 .footer_outer .social ul {
   display: flex;
@@ -389,11 +429,11 @@ footer {
   color: #eee;
   margin-right: 200px;
   width: 205px;
-}
+} */
 
-.footer_outer .social ul li {
+/* .footer_outer .social ul li {
   padding: 1rem;
-}
+} */
 
 .fab {
   font-size: 2rem;
@@ -427,16 +467,16 @@ footer {
   color: #1877f2;
   transform: scale(1.1);
 }
-
+/* 
  .footer_outer ul {
   padding: 0;
   list-style:none;
   text-align: center;
   line-height: 2;
   margin-bottom: 0;
-} 
+}  */
 
-.footer_outer .copyright {
+/* .footer_outer .copyright {
   margin-top: 150px;
   text-align: center;
   font-size: 12px;
@@ -468,7 +508,7 @@ footer {
 .footer_outer .copyright a:active{
   color:rgb(114, 176, 228);
 }
-
+ */
 
 .container {
   position: relative;
@@ -534,18 +574,13 @@ Small Device Styles
     font-size: 12px;
   }
 
-  .downloads {
-    display: none;
+@media screen and (max-width: 850px) {
+  
+  .row.primary {
+    grid-template-columns: 1fr;
   }
+}
 
-  .outer {
-    padding: 0;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
 
   #header_wrap .inner {
     padding: 40px 30px 40px 30px;
