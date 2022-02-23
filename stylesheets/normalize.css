@@ -282,7 +282,7 @@
   * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
   */
  
- button,
+
  input,
  select,
  textarea {
@@ -296,10 +296,10 @@
   * the UA stylesheet.
   */
  
- button,
+ 
  input {
      line-height: normal;
- }
+ } 
  
  /**
   * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -308,11 +308,11 @@
   * Correct `select` style inheritance in Firefox 4+ and Opera.
   */
  
- button,
+ 
  select {
      text-transform: none;
  }
- 
+
  /**
   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
   *    and `video` controls.
@@ -320,8 +320,7 @@
   * 3. Improve usability and consistency of cursor style between image-type
   *    `input` and others.
   */
- 
- button,
+
  html input[type="button"], /* 1 */
  input[type="reset"],
  input[type="submit"] {
@@ -333,7 +332,7 @@
   * Re-set default cursor for disabled elements.
   */
  
- button[disabled],
+
  html input[disabled] {
      cursor: default;
  }
@@ -376,7 +375,7 @@
   * Remove inner padding and border in Firefox 4+.
   */
  
- button::-moz-focus-inner,
+ /* button::-moz-focus-inner, */
  input::-moz-focus-inner {
      border: 0;
      padding: 0;
