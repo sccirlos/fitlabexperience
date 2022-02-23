@@ -16,7 +16,7 @@ body {
   background: #212121;
   font-size: 18px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+ /*  line-height: 1.5; */
   -webkit-font-smoothing: antialiased;
 }
 
