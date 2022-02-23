@@ -113,7 +113,7 @@ button {
   -webkit-user-select: none;
   touch-action: manipulation;
   cursor: pointer;
-  font-family: "roboto condensed";
+  font-family: "roboto";
   justify-content: center;
   line-height: 1.0em;
   max-width: 100%;
