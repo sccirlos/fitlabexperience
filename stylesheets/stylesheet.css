@@ -119,7 +119,7 @@ button {
   max-width: 100%;
   min-width: 140px;
   font-size: 2.1em;
-  padding: 19px 24px;
+  padding: 18px 18px;
   white-space: pre;
 }
 button:focus {
