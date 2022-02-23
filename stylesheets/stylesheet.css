@@ -115,9 +115,8 @@ button {
   cursor: pointer;
   font-family: "roboto condensed";
   justify-content: center;
-  line-height: 1.6em;
   max-width: 100%;
-  min-width: 140px;
+  min-width: 120px;
 }
 button:focus {
   box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
