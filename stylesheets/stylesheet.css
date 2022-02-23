@@ -54,6 +54,7 @@ h3 {
 }
 
 h4 {
+
   text-align: center;
   color:#eee;
   font-size: 1.4em;
@@ -92,9 +93,11 @@ p {
 a {
   text-decoration: none;
   text-shadow: none;
-  font-family: "Lato";
-  font-size: 12px;
+  /* font-family: "Lato"; */
+ /* font-size: 12px; */
   margin: 0px 0 15px 0;
+  color: #fff
+  
 }
 
 
