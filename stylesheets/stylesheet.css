@@ -322,7 +322,7 @@ header {
 
 #project_title {
   color: #fff;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 690;
   padding-top: 5px;
   padding-right: 0px;
@@ -331,7 +331,7 @@ header {
 
 #project_tagline {
   color: #fff;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 300;
   background: none;
 }
