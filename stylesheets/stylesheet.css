@@ -502,6 +502,17 @@ div.social {
 
 }
 
+.container2 {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  right: 20px;
+
+
+}
+
 .container .promo_vid {
 
   position: absolute;
@@ -528,6 +539,17 @@ div.social {
   z-index: 1;
 }
 
+.container2 iframe {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
