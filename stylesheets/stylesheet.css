@@ -383,6 +383,7 @@ footer {
   border: none;
   outline: none;
   font-family: "roboto condensed";
+  padding-top: 100px;
 }
 
 .row {
@@ -504,10 +505,11 @@ div.social {
 
 .container2 {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 25px;
   /* 16:9 */
   padding-top: 25px;
-  height: 0;
+  margin-top: 25px;
+  height: 627px;
   right: 20px;
 
 
@@ -549,6 +551,9 @@ div.social {
   border-radius: 12px;
   overflow: hidden;
   z-index: 1;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25
 }
 /*******************************************************************************
 Small Device Styles
