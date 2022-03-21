@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset='utf-8' />
-      <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta name="description" content="Slate is a responsive theme for GitHub Pages" />
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Slate is a responsive theme for GitHub Pages" />
 
-      <link rel="stylesheet" href="https://fonts/fontawesome-free-5.3.1-web/css/all.css">
-      <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts/fontawesome-free-5.3.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-      <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,700,700italic' rel='stylesheet' type='text/css'>
 
-      <script src="https://kit.fontawesome.com/df29123027.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df29123027.js" crossorigin="anonymous"></script>
 
-      <title>F.I.T.LAB EXPERIENCE</title>
-    </head>
+    <title>F.I.T.LAB EXPERIENCE</title>
+  </head>
 
   
     <!-- HEADER -->
+  <body>
     <header>
+      <nav class="nav">
+        <a href="/" class="logo">logo</a>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">contact</a>
+          <a href="#">blog</a>
+        </div>
+      </nav>
+    </header>
+   <!--  <header>
       <div class="containerNav">
           <a href="#about" class="logo">Medical Weightloss Program </a>
           <nav class="nav-collapse">
@@ -30,7 +49,7 @@
             </ul>
           </nav>
       </div>
-    </header>
+    </header> -->
    <!--  <div id="header_wrap" class="outer">
         <img src= "images/fitlablogoW.png" style="float:left";>
           <header class="inner">
@@ -44,14 +63,14 @@
 
     <!-- MAIN CONTENT -->
     <!--add video here, use a practice one for now-->
-    <body>
-        <div class="container">
-          <video class="promo_vid" poster="/images/fitlabVideoPoster.png" width="540" height="315" playsinline controls autoplay loop> 
-            <source src="images/fitlab_final_AdobeCreativeCloudExpress.mp4"  type="video/mp4">
-          </video>
-          <!--  <iframe width="540" height="305" src="https://www.youtube.com/embed/J8wLFspLPwA" title="YouTube video player" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        </div>
+
+      <div class="container">
+        <video class="promo_vid" poster="/images/fitlabVideoPoster.png" width="540" height="315" playsinline controls autoplay loop> 
+          <source src="images/fitlab_final_AdobeCreativeCloudExpress.mp4"  type="video/mp4">
+        </video>
+        <!--  <iframe width="540" height="305" src="https://www.youtube.com/embed/J8wLFspLPwA" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      </div>
 
       <div class="container2">
         <iframe
@@ -182,4 +201,5 @@
       </div>
     </footer>
   </body>
+ <script src="./about.js"></script>
 </html>

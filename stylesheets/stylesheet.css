@@ -275,10 +275,61 @@ form {
 }
  
 
+/* nav styles mobile */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: rgb(5, 5, 116);
+  padding-left: 20px;
+}
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.nav__link {
+  position: fixed;
+  width: 94%;
+  top: 5rem;
+  left: 18px;
+  background-color: lightblue;
+}
+
+.nav__link a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav__link a:hover {
+  background-color: lightcoral;
+}
+
+.hide {
+  display: none;
+}
+
+
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
 --------------------------------------------- */
-
+/* 
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -336,7 +387,7 @@ form {
   FIXED HEADER
 --------------------------------------------- */
 
-header {
+/* header {
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -425,13 +476,13 @@ a:hover {
 @-ms-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
-
+ */
 
 /* ------------------------------------------
   FIXED HEADER
 --------------------------------------------- */
 
-header {
+/* header {
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -447,14 +498,14 @@ header {
   padding: 0;
   color: #000;
   float: left;
-}
+} */
 
 
 /* ------------------------------------------
   MASK
 --------------------------------------------- */
 
-.mask {
+/* .mask {
   -webkit-transition: opacity 300ms;
   -moz-transition: opacity 300ms;
   transition: opacity 300ms;
@@ -484,14 +535,14 @@ header {
     display: none !important;
     opacity: 0 !important;
   }
-}
+} */
 
 
 /* ------------------------------------------
   NAV TOGGLE STYLES
 --------------------------------------------- */
 
-.nav-toggle {
+/* .nav-toggle {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
@@ -502,25 +553,25 @@ header {
   height: 55px;
   float: right;
 }
-
+/* 
 .nav-toggle:before {
-  color: #000; /* Edit this to change the icon color */
-  font: normal 28px/55px "FontAwesome"; /* Edit font-size (28px) to change the icon size */
+  color: #000;
+  font: normal 28px/55px "FontAwesome"; 
   text-transform: none;
   text-align: right;
   position: absolute;
-  content: "\f0c9"; /* Hamburger icon */
+  content: "\f0c9"; 
   text-indent: 0;
   speak: none;
   width: 100%;
   left: 0;
   top: 0;
-}
-
-.nav-toggle.active:before {
+} */
+ 
+/* .nav-toggle.active:before {
   font-size: 24px;
   content: "\f00d"; /* Close icon */
-}
+
 
 
 /* Demo style */
@@ -530,7 +581,7 @@ body {
   background: #eee;
 } */
 
-img {
+/* img {
   max-width: 100%;
   padding: 0 0 20px 0; 
 }
@@ -542,19 +593,9 @@ h2 {
 header {
   background: #FFF;
   opacity: 0.8;
-}
+} */
 
-.containerNav {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.containerNav-bottom {
-  margin-top: 80px;
-}
-
+/* 
 section {
   padding-bottom: 30px;
 }
@@ -562,11 +603,29 @@ section {
 section p {
   padding-bottom: 20px;
 }
-
+ */
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
 
+@media screen and (min-width: 600px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
 /* 
 .video-area {
   padding: 250px;
@@ -580,7 +639,7 @@ Full-Width Styles
 
 
 
-
+/* 
 #fitlab_web {
   display: block;
   position: absolute;
@@ -592,7 +651,7 @@ Full-Width Styles
 
   font-weight: 700;
   border: 0px;
-}
+} */
 
 
 header {
@@ -808,6 +867,17 @@ div.social {
   background-color: transparent;
 
 }
+
+/* .containerNav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.containerNav-bottom {
+  margin-top: 80px;
+} */
 
 .container .promo_vid {
 
