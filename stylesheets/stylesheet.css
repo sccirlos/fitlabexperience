@@ -99,7 +99,7 @@ p {
 a {
   text-decoration: none;
   text-shadow: none;
-  font-family: "Lato"; 
+  font-family: "roboto"; 
   font-size: 12px; 
   margin: 0px 0 15px 0;
   color: #fff
@@ -292,7 +292,7 @@ form {
 
 .logo {
   font-size: 1.8rem;
-  color: rgb(5, 5, 116);
+  color: rgb(255, 255, 255);
   padding-left: 20px;
 }
 
@@ -306,7 +306,7 @@ form {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: black;
+  background-color: rgb(250, 250, 250);
 }
 
 .nav__link {
@@ -314,7 +314,7 @@ form {
   width: 94%;
   top: 5rem;
   left: 18px;
-  background-color: lightblue;
+  background-color: rgb(17, 33, 100);
   z-index: 3;
 }
 
@@ -322,6 +322,8 @@ form {
   display: block;
   text-align: center;
   padding: 10px 0;
+  font-size: 24px;
+  font-family: "roboto";
 }
 
 .nav__link a:hover {
