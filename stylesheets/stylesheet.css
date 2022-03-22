@@ -322,12 +322,12 @@ form {
   display: block;
   text-align: center;
   padding: 10px 0;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "roboto";
 }
 
 .nav__link a:hover {
-  background-color: lightcoral;
+  background-color: rgb(132, 177, 243);
 }
 
 .hide {
@@ -844,6 +844,12 @@ div.social {
 .fa-tiktok:focus {
   color: #1877f2;
   transform: scale(1.1);
+}
+
+.container0 {
+  position: relative;
+  padding-top: 20px;
+  
 }
 
 
